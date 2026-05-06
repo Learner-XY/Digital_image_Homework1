@@ -17,13 +17,22 @@ Digital_image_Homework1/
 │       ├── run_global_transform.py
 │       ├── run_point_transform.py
 │       └── test.py
-└── Assignment_02/
+├── Assignment_02/
     ├── README.md
     ├── requirements.txt
     └── hw_2/
         ├── part1_poisson.py
         ├── part1_gradio_demo.py
         └── part2_pix2pix.py
+└── Assignment_03/
+    ├── README.md
+    ├── requirements.txt
+    ├── code/
+    │   ├── bundle_adjustment.py
+    │   ├── run_colmap.ps1
+    │   └── run_colmap.bat
+    ├── data/
+    └── outputs/
 ```
 
 ## 作业列表
@@ -32,6 +41,7 @@ Digital_image_Homework1/
 |---|---|---|---|
 | Assignment 01 | 图像几何变换与图像形变 | `Assignment_01/code/` | `Assignment_01/README.md` |
 | Assignment 02 | Poisson 图像编辑与 Pix2Pix 图像翻译 | `Assignment_02/hw_2/` | `Assignment_02/README.md` |
+| Assignment 03 | Bundle Adjustment 与 COLMAP 3D Reconstruction | `Assignment_03/code/` | `Assignment_03/README.md` |
 
 ## 通用运行方式
 
@@ -46,6 +56,13 @@ pip install -r requirements.txt
 
 ```bash
 cd Assignment_02
+pip install -r requirements.txt
+```
+
+或：
+
+```bash
+cd Assignment_03
 pip install -r requirements.txt
 ```
 
