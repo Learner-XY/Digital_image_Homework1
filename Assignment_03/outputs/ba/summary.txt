@@ -1,0 +1,6 @@
+Bundle Adjustment simple PyTorch result
+device: cuda
+observations used: 200000
+points: 20000, views: 50
+final rmse: 11.6705
+final focal: 900.1611
