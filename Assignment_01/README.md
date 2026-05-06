@@ -21,8 +21,6 @@ Assignment_01/
     └── test.py
 ```
 
-说明：目前原始代码文件仍保留在仓库中的 `01_ImageWarping/` 文件夹下，后续可进一步统一移动到 `Assignment_01/code/` 中。报告和运行说明以本文件为准。
-
 ## 3. 环境依赖
 
 建议使用 Python 3.9 或以上版本。安装依赖：
@@ -54,12 +52,12 @@ pip install "huggingface_hub<0.18"
 
 ## 4. 运行方式
 
-由于当前代码仍保存在 `01_ImageWarping/` 文件夹下，因此从仓库根目录运行：
+从 `Assignment_01` 目录运行：
 
 ### 4.1 全局几何变换
 
 ```bash
-python 01_ImageWarping/run_global_transform.py
+python code/run_global_transform.py
 ```
 
 运行后会启动 Gradio 网页界面。用户可以上传图像，并通过滑块调整缩放、旋转、平移和水平翻转参数。
@@ -67,7 +65,7 @@ python 01_ImageWarping/run_global_transform.py
 ### 4.2 基于控制点的图像形变
 
 ```bash
-python 01_ImageWarping/run_point_transform.py
+python code/run_point_transform.py
 ```
 
 运行后会启动 Gradio 网页界面。操作步骤如下：
@@ -81,7 +79,7 @@ python 01_ImageWarping/run_point_transform.py
 ### 4.3 测试依赖版本
 
 ```bash
-python 01_ImageWarping/test.py
+python code/test.py
 ```
 
 该脚本用于输出当前环境中 `gradio`、`opencv-python` 和 `numpy` 的版本信息。
